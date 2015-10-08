@@ -1,0 +1,168 @@
+body {
+  font-family: sans-serif;
+  background: snow;
+  font-family: sans-serif;
+}
+
+a:visited {
+  color: pink;
+}
+
+section {
+  clear: both;
+}
+
+.authorImg {
+  margin: 0 .5em;
+  border-radius: 100%;
+  padding: 0;
+}
+
+.authorImg:hover {
+  opacity: .75;
+}
+
+.author-box {
+  float: left;
+}
+
+.author h6 {
+  display: block;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+.article-title {
+  border: .25em dotted lime;
+  font-weight: bolder;
+  color: green;
+  padding: 0 2em;
+  text-align: center;
+}
+
+p {
+  line-height: 1;
+  color: purple;
+}
+
+.spanRed {
+  color: red;
+}
+
+section {
+  border: 1px solid yellow;
+  padding: 1em;
+  width: 75%;
+  margin: auto;
+  padding: 1em;
+  position: relative;
+  top: -10em;
+}
+
+header {
+  font-size: 2em;
+  margin: auto;
+  width: 100%;
+}
+
+#blog-title {
+  letter-spacing: 1em;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 1em hotpink;
+}
+
+#blog-title:hover {
+  text-shadow: 0 0 1em red;
+}
+
+h2 {
+  font-weight: lighter;
+  text-align: center;
+}
+
+h3 {
+  color: lightgreen;
+  letter-spacing: .25em;
+  margin: 0;
+}
+
+.bordered {
+  border: 1px dashed blue;
+  padding: 1em;
+  font-weight: bold;
+  border-radius: 2em;
+  background: cyan;
+  color: darkgreen;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+  padding: 1em;
+}
+
+.large {
+  font-size: 2em;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.cleared {
+  clear: both;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
+article {
+  background: orange;
+  padding: 1em;
+  margin: 0;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation > ul > li {
+  padding: .25em;
+  float: left;
+  margin: 1em;
+  border: 1px solid yellow;
+  background: goldenrod;
+  font-family: Arial;
+  font-size: .75em;
+  cursor: pointer;
+}
+
+.navigation > ul >li:hover {
+  background: hotpink;
+}
+
+.navigation > ul > li a {
+  text-decoration: none;
+  color: lightcyan;
+}
+
+.navigation ul li a:hover {
+  color: deepskyblue;
+ }
+
+footer#copyright {
+  color: black;
+  background: hotpink;
+  padding: .25em;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
